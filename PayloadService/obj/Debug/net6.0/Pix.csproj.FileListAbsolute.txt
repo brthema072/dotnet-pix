@@ -1,0 +1,12 @@
+D:\projetos\back\Pix\PayloadServer\bin\Debug\net6.0\Pix.deps.json
+D:\projetos\back\Pix\PayloadServer\bin\Debug\net6.0\Pix.dll
+D:\projetos\back\Pix\PayloadServer\bin\Debug\net6.0\Pix.pdb
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.csproj.AssemblyReference.cache
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.AssemblyInfoInputs.cache
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.AssemblyInfo.cs
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.csproj.CoreCompileInputs.cache
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.dll
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\refint\Pix.dll
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\Pix.pdb
+D:\projetos\back\Pix\PayloadServer\obj\Debug\net6.0\ref\Pix.dll

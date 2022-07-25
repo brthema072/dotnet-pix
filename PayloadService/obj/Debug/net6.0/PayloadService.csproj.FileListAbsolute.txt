@@ -1,0 +1,12 @@
+d:\projetos\back\Pix\PayloadService\bin\Debug\net6.0\PayloadService.deps.json
+d:\projetos\back\Pix\PayloadService\bin\Debug\net6.0\PayloadService.dll
+d:\projetos\back\Pix\PayloadService\bin\Debug\net6.0\PayloadService.pdb
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.csproj.AssemblyReference.cache
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.GeneratedMSBuildEditorConfig.editorconfig
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.AssemblyInfoInputs.cache
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.AssemblyInfo.cs
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.csproj.CoreCompileInputs.cache
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.dll
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\refint\PayloadService.dll
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\PayloadService.pdb
+d:\projetos\back\Pix\PayloadService\obj\Debug\net6.0\ref\PayloadService.dll
