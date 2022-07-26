@@ -1,4 +1,6 @@
-﻿namespace Pix.PayloadService;
+﻿using System.Text;
+
+namespace Pix.PayloadService;
 
 public class PayloadService {
     private readonly string ID_PAYLOAD_FORMAT_INDICATOR = "00";
@@ -85,11 +87,12 @@ public class PayloadService {
         var polinomio = 0x1021;
         var resultado = 0xFFFF;
   
-        var length = payload.Length;
+        var bytes = Encoding.Default.GetBytes(payload);
+
         //CHECKSUM
-        if (length > 0) {
-            for (var i = 0; i < length; i++) {
-              resultado ^= (int)payload[i].CharCodeAt(0) << 8;
+        if (bytes.Count() > 0) {
+            for (var i = 0; i < bytes.Count(); i++) {
+              resultado ^= (Convert.ToInt32(bytes[i]) << 8);
               for (var bitwise = 0; bitwise < 8; bitwise++) {
                 if (((resultado <<= 1) & 0x10000) > 0){
                     resultado ^= polinomio;
@@ -100,7 +103,7 @@ public class PayloadService {
           }
   
         //RETORNA CÓDIGO CRC16 DE 4 CARACTERES
-        return this.ID_CRC16 + "04" + resultado.ToString().ToUpper();
+        return this.ID_CRC16 + "04" + resultado.ToString("X").ToUpper();
     }
 
     
