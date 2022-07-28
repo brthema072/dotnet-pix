@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payload", "PayloadServer\Payload.csproj", "{03A785D1-93C6-4735-9786-5B1E220355F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payload", "PayloadService\PayloadService.csproj", "{03A785D1-93C6-4735-9786-5B1E220355F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayloadService.Test", "PayloadService.Test\PayloadService.Test.csproj", "{50813A01-A374-4A6E-AA57-17DD039B5E9F}"
 EndProject

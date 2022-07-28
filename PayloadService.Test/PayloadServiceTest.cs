@@ -21,11 +21,5 @@ namespace Prime.UnitTests.Services
             // Console.WriteLine(payload);
             Assert.Equals(payload, "00020126450014br.gov.bcb.pix0123brunomarthe72@gmail.com52040000530398654031005802BR5912Bruno Marthe6011Sorocaba SP620705031236304AF4C");
         }
-
-        [Test]
-        public void New_Fail_Pix_Payload(){
-            var payload = _payloadService.GetPayload();
-            Assert.AreNotEqual(payload, Assert.Equals(payload, "00020126450014br.gov.bcb.pix0123brunomarthe72@gmail.com52040000530398654031005802BR5912Bruno Marthe6011Sorocaba SP620705031236304AF4C"));
-        }
     }
 }
